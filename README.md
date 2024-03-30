@@ -48,7 +48,7 @@ To launch [MyReads Project], follow these steps:
 
 ## Contributing
 
-Contributions are welcome! Here's how you can contribute to [Project Name]:
+Contributions are welcome! Here's how you can contribute to [MyReads Project]:
 
 1. Fork the repository
 2. Create a new branch (`git checkout -b feature/new-feature`)
