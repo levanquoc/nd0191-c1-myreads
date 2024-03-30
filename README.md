@@ -24,18 +24,15 @@ To install and run [MyReads Project], follow these steps:
 
 1. Clone the repository:
 
-
-git clone https://github.com/levanquoc/nd0191-c1-myreads.git
+    git clone https://github.com/levanquoc/nd0191-c1-myreads.git
 
 2. Navigate to the project directory:
 
-
-cd nd0191-c1-myreads/starter
+    cd nd0191-c1-myreads/starter
 
 3. Install dependencies:
 
-
-npm install
+    npm install
 
 
 ## Usage
@@ -44,7 +41,7 @@ To launch [MyReads Project], follow these steps:
 
 1. Start the development server:
 
-npm start
+    npm start
 
 
 2. Open your web browser and go to http://localhost:3000 to view the application.
