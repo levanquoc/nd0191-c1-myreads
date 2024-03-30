@@ -13,7 +13,7 @@ function App() {
 			if (response.error) {
 				console.log("Error");
 			}
-      console.log(response);
+      //console.log(response);
       setBooks(response);
 		};
 		getBooks();

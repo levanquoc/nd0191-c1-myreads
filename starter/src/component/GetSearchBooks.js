@@ -1,7 +1,9 @@
 import React from 'react'
 import { Book } from './Book';
 export const GetSearchBooks = ({searchedBooks,fetchedBooks,onChangeShelfBook}) => {
+    console.log(fetchedBooks)
     return (
+        
         <ol className='books-grid'>
             {fetchedBooks.length > 0 &&
                 fetchedBooks.map((book) => {

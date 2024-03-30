@@ -9,9 +9,12 @@ export const SearchBook = ({onChangeShelfBook,books}) => {
   const [fetchedBooks,setFetchedBooks] = useState([]);
   useEffect(() => {
     const searchBooks = async () => {
+      console.log("Start");
       try {
+        console.log(valueSearch);
         if (valueSearch.length !== 0) {
           const searchedBooks = await BooksAPI.search(valueSearch);
+          console.log(searchedBooks);
           setFetchedBooks(searchedBooks.error ? [] : searchedBooks);
         } else {
           setFetchedBooks([]);
@@ -22,7 +25,7 @@ export const SearchBook = ({onChangeShelfBook,books}) => {
       }
     };
 
-    const timerID = valueSearch.length !== 0 && setTimeout(searchBooks, 300);
+    const timerID = setTimeout(searchBooks, 200);
 
     return () => {
       clearTimeout(timerID);
@@ -38,7 +41,7 @@ export const SearchBook = ({onChangeShelfBook,books}) => {
         <input
           type="text"
           value={valueSearch}
-          onChange={(e) => setValueSearch(e.target.value)}
+          onChange={e=> setValueSearch(e.target.value)}
           placeholder="Search by title, author,c or ISBN"
         />
       </div>
