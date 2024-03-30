@@ -118,8 +118,14 @@ body,
   flex-wrap: wrap;
 }
 .books-grid li {
+  margin-top: 70px;
   padding: 10px 15px;
   text-align: left;
+}
+.books-grid h2 {
+  margin-top: 40px;
+  padding: 10px 15px;
+  text-align: center;
 }
 
 .book {
