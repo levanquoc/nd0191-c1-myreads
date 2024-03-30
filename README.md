@@ -2,7 +2,6 @@
 
 ## Description
 
-## Overview
 MyReads is a web application designed to help users organize their personal library of books. It provides features for managing reading progress and maintaining a wishlist of books to read.
 
 ## Features
@@ -17,8 +16,6 @@ MyReads is a web application designed to help users organize their personal libr
 
 ## Technologies
 - **Frontend**: Typically developed using React.js for building dynamic user interfaces.
-- **Backend**: May involve integration with APIs like Google Books API for book search functionality.
-
 
 
 ## Installation
@@ -27,27 +24,26 @@ To install and run [MyReads Project], follow these steps:
 
 1. Clone the repository:
 
-```bash
+
 git clone https://github.com/levanquoc/nd0191-c1-myreads.git
 
 2. Navigate to the project directory:
 
-```bash
+
 cd nd0191-c1-myreads/starter
 
 3. Install dependencies:
 
-```bash
+
 npm install
 
 
 ## Usage
 
-To launch [Project Name], follow these steps:
+To launch [MyReads Project], follow these steps:
 
 1. Start the development server:
 
-```bash
 npm start
 
 
